@@ -1,0 +1,129 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+list-style:none;
+outline:none;
+}
+
+body{
+background-color: #f352b5;
+}
+
+
+.formContainer {
+  display: flex;
+  flex-direction: column; 
+  text-align: center;
+  justify-content: center;
+  font-size: 40px;
+  padding: 30px;
+}
+
+.formContainer h1 {
+  padding: 20px;
+  font-size: 40px;
+  font-weight: 800;
+  color: rgb(87, 15, 221);
+  margin: 0 auto;
+}
+
+.formContainer h3 {
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 800;
+  color: rgb(86, 21, 170);
+  margin: 0 auto;
+}
+
+.add-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.pizzainput {
+  font-size: 15px;
+  border-radius: 20px;
+  padding: 14px 50px;
+  margin-left: 18px;
+  border: 2px solid rgb(223, 223, 236);
+  margin-bottom: 30px;
+}                               
+
+.search-button {
+  background: rgb(255, 22, 139);
+  cursor: pointer;
+  border: none;
+  padding: 16px;
+  margin-left: 20px;
+  color: azure;
+  font-size: 20px;
+  font-weight: bolder;
+  position: relative;
+  border-radius: 12px;
+}                           
+                        
+.search-button:hover {
+  background-color: #f3465d;
+}
+
+.resultContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 20px;
+  padding: 20px;
+}
+
+.resultContainer h4 {
+  font-size: 40px;
+  color: rgb(240, 3, 3);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+ 
+} 
+
+.pizza-card-container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.pizza-card {
+  background-color: rgb(240, 55, 169);
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 1.5;
+  gap: 30px;
+  margin-top: -60px;
+  border-radius: 10px;
+  max-width: 400px;
+  box-shadow: 0px 1px 10px rgb(233, 3, 3);
+}
+
+.pizza-card img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+}
+
+.pizza-card h2 {
+  font-size: 36px;
+  color: rgb(230, 3, 3);
+}
+
+.pizza-card p {
+  font-size: 22px;
+  color: rgb(20, 20, 20);
+}
